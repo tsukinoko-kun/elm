@@ -2,6 +2,8 @@
 
 Embedded Elm CLI to use in Go projects.
 
+All right to Elm remain with Evan Czaplicki.
+
 -   Use the `Init` function to initialize the elm binary. This will write the binary that is embedded in this package to a temporary file.
 -   Use the `Dispose` function to remove the temporary file.
 -   Use the `Command` function to create a `*exec.Cmd` that runs a command with the embedded elm binary.
